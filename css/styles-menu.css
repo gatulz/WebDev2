@@ -1,0 +1,96 @@
+body,html{
+  margin:0;
+  background-color: #f2f2f2;
+  text-align : center;
+  font-family : Montserrat, sans-serif;
+  min-width:570px
+}
+
+.menu1, .menu2, .menu3, .menu4, .menu5, .menu6{
+  width : 150px;
+  height : 150px;
+  border : solid 2px rgba(0,0,0,0.7);
+  border-radius: 20px;
+  position : absolute;
+  background-color: #ffffff;
+}
+.menu1{
+    top : 10%;
+    left : 22%;
+}
+.menu2{
+    top : 10%;
+    left : 44%;
+}
+.menu3{
+    top : 10%;
+    left : 66%;
+}
+.menu4{
+    top : 60%;
+    left : 22%;
+}
+.menu5{
+    top : 60%;
+    left : 44%;
+}
+.menu6{
+    top : 60%;
+    left : 66%;
+}
+
+@media (max-width: 700px) {
+  .menu1, .menu4{
+    position:absolute;
+    left:20px;
+  }
+  .menu2, .menu5{
+    position:absolute;
+    left:190px;
+  }
+  .menu3, .menu6{
+    position:absolute;
+    left:360px;
+  }
+}
+.content-logo{
+  padding-top:28px;
+  height : 60%;
+  width : 60%;
+}
+h2{
+  padding-top : 40px;
+  font-size : 24px;
+}
+
+.overlay {
+  position: absolute;
+  top: -1px;
+  left: -3px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+  border-radius: 20px;
+  border : 2px solid #000000;
+}
+
+.menu1:hover .overlay , .menu2:hover .overlay, .menu3:hover .overlay ,
+.menu4:hover .overlay , .menu5:hover .overlay, .menu6:hover .overlay
+{
+  opacity: 1;
+}
+
+.text {
+  line-height: 1.5;
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

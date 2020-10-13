@@ -1,0 +1,133 @@
+
+body{
+  margin : 0;
+  background-color: #fbf7f0;
+  text-align : center;
+}
+p{
+  margin:0;
+}
+h1{
+  color: #66BFBF;
+}
+h2{
+  color: #66BFBF;
+}
+h3{
+  color: #11999E;
+}
+
+.navigation{
+  text-align: right;
+  margin-top: 0;
+  height:30px;
+  background-color: #1f3c88;
+}
+
+.navi-pane{
+  text-align: right;
+  margin-right : 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.navi-pane:hover{
+  color:red;
+}
+.navi-table{
+  align-self: flex-end;
+  text-align: right;
+  border-left : solid;
+  border-right : solid;
+
+}
+.name-pane{
+  /* vertical-align: center; */
+  background-color: cyan;
+  /* border-top: dashed; */
+  height : 500px;
+}
+.name{
+  vertical-align: middle;
+  text-align: center;
+  height : 100%;
+  width:100%;
+  top:50%;
+}
+
+.navigation-pane{
+
+}
+.top-container{
+
+}
+.middle-container{
+
+}
+.bottom-container{
+
+}
+.footer-link{
+
+}
+.profile{
+  /* display : inline-block; */
+  position : relative;
+  /* margin : 0 auto 0 auto; */
+  text-align: center;
+  font-size: 2rem;
+}
+.skills{
+  font-size: 1.6rem;
+  line-height: 1;
+}
+.skill-row{
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+/*
+margin - border-padding -> outer to inner
+span on paragrarf elemtnt to seperatae part of the text
+<p> <span> pro </span>
+
+span, img, a is inline  -> just have size needed
+display : inline;
+display : inline-block; // can set padding, margin, w and h of element
+visibility : hidden;
+ */
+
+ /*
+position : relative;
+ex
+  top : 30px; -> move img 30px from top to bottom 30px
+
+position : absolute; // based on parent position
+ex :
+  right : 30px; -> img position is on 30 gap to right side of parent right side
+
+position : fixed; //sticky position when scrolling
+  */
+
+  /*
+  set center of the element with width
+  width : 20%;
+  margin: 0 auto 0 auto;
+   */
+
+   /*
+   font-family : monospace (utk kode), sans-serif dan serif (utk halaman)
+   ex
+     font-family : verdana, comic sans MS, sans-serif; / jika ada verdana pakai, jk tdk arial jk tdk yg ada saja
+  link font referent from google @font-face {
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
+
+  font size px -> static, em and % ->dynamic
+  font-size : 100%; ->16px ->1em , 300%->48px->3em
+  dan dynamic bisa inherited (bertumpuk), jika tidak mau bertumpuk
+  pakai satuan 1rem (root em), not effected by parrent font size
+
+  }
+  */
+
+  /*
+  float : left; -> agar img mengambang di kiri text
+  clear : left; -> anti float, keluar dr  */
